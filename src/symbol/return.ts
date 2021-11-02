@@ -4,5 +4,5 @@
  * @description Return
  */
 
-export const EmptyReturnSymbolText: string = 'empty-return';
+export const EmptyReturnSymbolText: string = 'return-empty-return';
 export const EmptyReturnSymbol: unique symbol = Symbol.for(EmptyReturnSymbolText);
