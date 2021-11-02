@@ -5,4 +5,5 @@
  */
 
 export * from "./symbol/invalid";
+export * from "./symbol/return";
 
