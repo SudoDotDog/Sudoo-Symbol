@@ -17,6 +17,8 @@ npm install @sudoo/symbol --save
 
 ## Example
 
+Symbol should be used as return values (and more!) to express more information from functions.
+
 ```ts
 import { SEmptyReturn, EmptyReturnSymbol } from "@sudoo/symbol";
 
