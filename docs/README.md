@@ -38,3 +38,4 @@ export const yourFunction = (arg: any): SEmptyReturn | AwesomeObject | null => {
 
 ## Note
 
+Do not use `@sudoo/symbol` as required dependencies unless the project is not a package. Due to duplicated copy of package would cause type reference issue.
