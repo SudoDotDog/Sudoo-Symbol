@@ -14,3 +14,25 @@ yarn add @sudoo/symbol
 # Or
 npm install @sudoo/symbol --save
 ```
+
+## Example
+
+```ts
+import { SEmptyReturn, EmptyReturnSymbol } from "@sudoo/symbol";
+
+export const yourFunction = (arg: any): SEmptyReturn | AwesomeObject | null => {
+
+    if (arg === null) {
+        return null;
+    }
+
+    if (arg.hasNoData) {
+        return EmptyReturnSymbol;
+    }
+
+    return arg.awesomeObject;
+};
+```
+
+## Note
+
