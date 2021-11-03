@@ -6,4 +6,5 @@
 
 export * from "./symbol/invalid";
 export * from "./symbol/return";
+export * from "./symbol/state";
 
